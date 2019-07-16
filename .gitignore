@@ -1,0 +1,5 @@
+.DS_Store
+build/
+env/
+images/.DS_Store
+images/__pycache__/
