@@ -3,3 +3,5 @@ build/
 env/
 images/.DS_Store
 images/__pycache__/
+config/__pycache__/
+scripts/__pycache__/

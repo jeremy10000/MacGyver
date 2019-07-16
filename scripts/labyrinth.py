@@ -21,7 +21,7 @@ class Labyrinth:
         self.items_list = []
 
 
-    def load_file_and_position(self, filename, dico):
+    def load_file_and_position(self, filename, dictio):
         """ Load the labyrinth file and memorizes the positions of the elements. """
         file = open(filename, "r")
         lines = file.readlines()
@@ -30,9 +30,9 @@ class Labyrinth:
                 if char != "\n":
                     self.level_design.append(((pos_x, pos_y), item[pos_x].upper()))
 
-                    for key in dico:
-                        if item[pos_x] == dico[key][0]:
-                            dico[key][2].append((pos_x, pos_y))
+                    for key in dictio:
+                        if item[pos_x] == dictio[key][0]:
+                            dictio[key][2].append((pos_x, pos_y))
         file.close()
 
 
