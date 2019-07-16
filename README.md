@@ -36,6 +36,12 @@ Play
 python3 game.py
 ```
 
+Standalone (CX_Freeze)
+----  
+```
+python3 setup.py build
+```
+
 Tests
 ---------
 * Mac OS X Sierra + python 3.7
