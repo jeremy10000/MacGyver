@@ -22,7 +22,7 @@ Requirements
 pip install -r requirements.txt
 ```
 
-Virtual environment (Mac OS X)
+Virtual environment
 ------------------------------
 ```
 pip install virtualenv
@@ -41,8 +41,3 @@ Standalone (CX_Freeze)
 ```
 python3 setup.py build
 ```
-
-Tests
----------
-* Mac OS X Sierra + python 3.7
-* PEP 8 : All files 10/10 (Pylint)
